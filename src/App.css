@@ -1,8 +1,8 @@
 
-input::-webkit-outer-spin-button,
+/* input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
@@ -13,7 +13,9 @@ input::-webkit-inner-spin-button {
 * {
   box-sizing: border-box;
 }
-
+.error{
+  color: red;
+}
 body {
   background-color: #f7f7f7;
   display: flex;
